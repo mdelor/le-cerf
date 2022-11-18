@@ -18,9 +18,13 @@ dans le fichier HTML
         le titre de la page n'est qu'un point / création d'un vrai titre
         présence de commentraires analytics et analytics end sans rien au milieu comme si il manquait le systeme devant permettre les analyses / suppression des commentaires
     dans le body
+        dans le bloc 1
+            le texte agence le cerf est dans un h1 / redirection vers un p ce n'est pas la baseline !
         dans le bloc 2
             la baseline était une image avec du texte dedans / suppresion de l'image et placement du texte dans un h1
             la citation à la fin du bloc était aussi une image avec du texte dedans / suppresion de l'image et placement du texte dans un bloc <quote>
+        dans le bloc 4
+            le titre de la section est dans une image / remise du texte dans un h2
 dans les assets
     les images
         une favicon qui n'as rien a voir avec le site et qui est mal rangée / suppresion du fichier

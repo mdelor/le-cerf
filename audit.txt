@@ -1,0 +1,23 @@
+Voici les erreurs que j'ai reperé:
+
+dans le fichier HTML
+    la déclaration !doctype html est écrite toute en minuscule / capitalisation de DOCTYPE
+    attribut lang de html invalide / changement vers fr
+    dans le <head>
+        la valeur utf-8 de l'attribut charset de l'élément méta est tout en minuscule / capitalisation de UTF-8
+        absence du méta pour l'équivalence de Edge / ajout de la ligne nécessaire
+        utilisation de <meta keywords=""> / suppresion
+        attribut description de meta vide / création d'une description
+        de plus ce meta d'attribut description est mal placé dans le head / déplacement vers un emplacement plus logique
+        l'icone du site n'est pas le logo / changement icone du site vers le logo
+        de plus cette icone est mal placé dans le head / déplacement vers un emplacement plus logique
+        le fichier css est chargé avant de charger les feuilles de police / changement du sens de chargement
+        présence de scripts dans le head sans l'attribut defer / attribution de defer a tout les scripts du head
+        le titre de la page n'est qu'un point / création d'un vrai titre
+        présence de commentraires analytics et analytics end sans rien au milieu comme si il manquait le systeme devant permettre les analyses / suppression des commentaires
+    
+dans les assets
+    une favicon qui n'as rien a voir avec le site et qui est mal rangée / suppresion du fichier
+    un logo agence du cerf (agence-le-cerf-monochrome.png) alors que le nom du site est agence le cerf / suppresion du mauvais logo
+    de plus ce logo existe deux fois sous deux noms (agence-le-cerf.png) / suppresion du deuxieme aussi
+    une image s'apelle également agence-le-cerf.jpg et n'as rien a voir avec le logo / rename de l'image pour un nom plus adapté bureau.jpg

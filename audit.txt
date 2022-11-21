@@ -68,3 +68,13 @@ dans les assets
         de plus ce logo existe deux fois sous deux noms (agence-le-cerf.png) / suppresion du deuxieme aussi
         le logo a du texte dessus et est trop grand / cropping du logo et redimenssionement 
         une image s'apelle également agence-le-cerf.jpg et n'as rien a voir avec le logo / rename de l'image pour un nom plus adapté bureau.jpg
+    les imports de code
+        les fichiers bootstrap et jquery sont tous obsolotes et devraient etre remplaces par des versions a jour / TODO remplacer ces imports et gérer les incompatiblités
+    dans le fichier css
+        deja il n'est pas placé dans le dossier css / déplacement et mise à jour des chemins
+        présence de #page-loading-blocs-notifaction qui ne fait réference à rien dans le HTML / suppression
+        présence des propriétés background size auto appliqué en !important a de de nombreux élements / inutile suppresion 
+        redondance de certains sélecteurs .dbloc a et .dbloc a:hover / suppression de plmusieurs sélecteurs
+        de même pour lbloc
+        
+

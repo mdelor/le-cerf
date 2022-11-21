@@ -18,6 +18,8 @@ sur la page d'accueil
     dans le <body>
         de manière générale non utilisation de balises html pertinentes comme le header, footer, main et les sections bcp trop de div / introduction de nombreuses balises plus pertinentes
         les images ont des alt peu pertinents et brouillons / création de alt plus spécifiques
+        présence d'une div page-container qui englobe la page / supression de cette div
+            passage des proprités CSS qui ciblait page-container vers des sélecteurs body
         dans le bloc 0
             page de contact nommée page 2 / rename vers contacts
             présence de div de classe "keywords" contenant des mot clés / suppression de ces conteneurs
@@ -41,7 +43,8 @@ sur la page de contacts
     dans le head
         même type d'erreurs dans le head et les déclarations au-dessus/ on recopie le head modifié et les balises de départ de l'accueil vers contacts et on modifie le title et la description
     dans le body
-        de même que dans l'accueil non-utilisation de balises pertinentes de structure / introduction de ces balises
+        non-utilisation de balises pertinentes de structure / introduction de ces balises (comme l'accueil)
+        présence d'une div page-container qui englobe la page / supression de cette div (comme l'accueil)
         dans le bloc 0
             élimination de l'élement liste en trop et rename de page2 vers contacts (comme accueil)
             modification du alt du logo (comme accueil)

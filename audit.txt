@@ -1,10 +1,8 @@
 Voici les erreurs que j'ai reperé:
 
-dans le fichier HTML
-
+sur la page d'accueil
     la déclaration !doctype html est écrite toute en minuscule / capitalisation de DOCTYPE
     attribut lang de html invalide / changement vers fr
-
     dans le <head>
         la valeur utf-8 de l'attribut charset de l'élément méta est tout en minuscule / capitalisation de UTF-8
         absence du méta pour l'équivalence de Edge / ajout de la ligne nécessaire
@@ -17,7 +15,10 @@ dans le fichier HTML
         présence de scripts dans le head sans l'attribut defer/ attribution de defer a tout les scripts du head
         le titre de la page n'est qu'un point / création d'un vrai titre
         présence de commentraires analytics et analytics end sans rien au milieu comme si il manquait le systeme devant permettre les analyses / suppression des commentaires
-    dans le body
+    dans le <body>
+        de manière générale non utilisation de balises html pertinentes comme le header, footer, main et les sections bcp trop de div / introduction de nombreuses balises plus pertinentes
+        dans le bloc 0
+            page de contact nommée page 2 / rename vers contacts
         dans le bloc 1
             le texte agence le cerf est dans un h1 / redirection vers un p ce n'est pas la baseline !
         dans le bloc 2
@@ -25,6 +26,9 @@ dans le fichier HTML
             la citation à la fin du bloc était aussi une image avec du texte dedans / suppresion de l'image et placement du texte dans un bloc <quote>
         dans le bloc 4
             le titre de la section est dans une image / remise du texte dans un h2
+        dans le bloc 8
+            les liens des réseaux sociaux renvoient vers la page d'accueil / redirection des liens morts vers # à la place
+            dans le footer présence de lien qui n'ont rien a voir avec la page juste pour tenter de remonter dans le SEO / suppression de la totalité
 dans les assets
     les images
         une favicon qui n'as rien a voir avec le site et qui est mal rangée / suppresion du fichier
@@ -32,4 +36,3 @@ dans les assets
         de plus ce logo existe deux fois sous deux noms (agence-le-cerf.png) / suppresion du deuxieme aussi
         le logo a du text dessus et est trop grand / cropping du logo et redimenssionement 
         une image s'apelle également agence-le-cerf.jpg et n'as rien a voir avec le logo / rename de l'image pour un nom plus adapté bureau.jpg
-

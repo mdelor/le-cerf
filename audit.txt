@@ -35,6 +35,8 @@ sur la page d'accueil
             présence de <br> pour placer le cta "contactez nous" / utilisation d'un nouvel élement p à la place
         dans le bloc 4
             le titre de la section est dans une image / remise du texte dans un h2
+        dans le bloc 5
+            probleme de contraste / passage de la classe black-background également
         dans le bloc 8
             les liens des réseaux sociaux renvoient vers la page d'accueil / redirection des liens morts vers # à la place
             dans le footer présence de lien qui n'ont rien a voir avec la page juste pour tenter de remonter dans le SEO / suppression de la totalité
@@ -68,6 +70,8 @@ dans les assets
         de plus ce logo existe deux fois sous deux noms (agence-le-cerf.png) / suppresion du deuxieme aussi
         le logo a du texte dessus et est trop grand / cropping du logo et redimenssionement 
         une image s'apelle également agence-le-cerf.jpg et n'as rien a voir avec le logo / rename de l'image pour un nom plus adapté bureau.jpg
+        les images 1 et 2 sont trop grandes / redimenssionement
+        les images 3 et 4 sont au format bpm / changement vers du .jpg
     les imports de code
         les fichiers bootstrap et jquery sont tous obsolotes et devraient etre remplaces par des versions a jour / TODO remplacer ces imports et gérer les incompatiblités
     dans le fichier css
@@ -76,5 +80,5 @@ dans les assets
         présence des propriétés background size auto appliqué en !important a de de nombreux élements / inutile suppresion 
         redondance de certains sélecteurs .dbloc a et .dbloc a:hover / suppression de plmusieurs sélecteurs
         de même pour lbloc
-        
+        le .black-background est trop clair / passage en noir
 

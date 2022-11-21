@@ -25,10 +25,9 @@ sur la page d'accueil
             présence de div de classe "keywords" contenant des mot clés / suppression de ces conteneurs
             présence d'un élement de liste non utilisé dans la nav / suppresion
         dans le bloc 1
-            le texte agence le cerf est dans un h1 / redirection vers un p ce n'est pas la baseline !
             présence d'un bouton contact en haut de page alors qu'il y en a un plus pertinent en bas de page / supression de celui-ci
         dans le bloc 2
-            la baseline était une image avec du texte dedans / suppresion de l'image et placement du texte dans un h1
+            la baseline était une image avec du texte dedans / suppresion de l'image et placement du texte dans un h2
             la citation à la fin du bloc était aussi une image avec du texte dedans / suppresion de l'image et placement du texte dans un bloc <quote>
         dans le bloc 3
             présence d'un <br> inutile à la fin du 1er <p> / suppresion de cette balise
@@ -71,7 +70,8 @@ dans les assets
         le logo a du texte dessus et est trop grand / cropping du logo et redimenssionement 
         une image s'apelle également agence-le-cerf.jpg et n'as rien a voir avec le logo / rename de l'image pour un nom plus adapté bureau.jpg
         les images 1 et 2 sont trop grandes / redimenssionement
-        les images 3 et 4 sont au format bpm / changement vers du .jpg
+        les images 3 et 4 sont au format bmp / changement vers du .jpg
+        l'image de présentation était au format bmp / changement vers du .jpg
         également création de noms pour ces immages à la place des chiffres
     les imports de code
         les fichiers bootstrap et jquery sont tous obsolotes et devraient etre remplaces par des versions a jour / TODO remplacer ces imports et gérer les incompatiblités

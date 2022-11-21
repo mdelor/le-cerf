@@ -19,6 +19,8 @@ sur la page d'accueil
         de manière générale non utilisation de balises html pertinentes comme le header, footer, main et les sections bcp trop de div / introduction de nombreuses balises plus pertinentes
         dans le bloc 0
             page de contact nommée page 2 / rename vers contacts
+            présence de div de classe "keywords" contenant des mot clés / suppression de ces conteneurs
+            présence d'un élement de liste non utilisé dans la nav / suppresion
         dans le bloc 1
             le texte agence le cerf est dans un h1 / redirection vers un p ce n'est pas la baseline !
         dans le bloc 2
@@ -36,3 +38,19 @@ dans les assets
         de plus ce logo existe deux fois sous deux noms (agence-le-cerf.png) / suppresion du deuxieme aussi
         le logo a du text dessus et est trop grand / cropping du logo et redimenssionement 
         une image s'apelle également agence-le-cerf.jpg et n'as rien a voir avec le logo / rename de l'image pour un nom plus adapté bureau.jpg
+
+sur la page de contacts
+    dans le head
+        même type d'erreurs dans le head et les déclarations au-dessus/ on recopie le head modifié et les balises de départ de l'accueil vers contacts et on modifie le title et la description
+    dans le body
+        de même que dans l'accueil non-utilisation de balises pertinentes de structure / introduction de ces balises
+        dans le bloc 0
+            élimination de l'élement liste en trop et rename de page2 vers contacts (comme accueil)
+        dans le bloc 7
+            le 3ème input (referrer) posséde un id peu descriptif et est de type email alors qu'il attend du texte / modifications des valeurs nécessaires
+            dans l'input textarea id peu descriptif également / modifié vers project-summary
+                et présence d'une balise <br> inutile / suppression
+            les label encadrant les inputs ne possede pas d'attribut for / ajout de ces attributs
+            le bloc d'informations de contact est mal implémenté / modification vers une balise <address> et plusieurs éléments <p> plutot que des <br>
+                également l'adresse mail est placée dans un <a mailto>
+            

@@ -77,6 +77,7 @@ dans les assets
         les fichiers bootstrap et jquery sont tous obsolotes et devraient etre remplaces par des versions a jour / TODO remplacer ces imports et gérer les incompatiblités
     dans le fichier css
         deja il n'est pas placé dans le dossier css / déplacement et mise à jour des chemins
+        supression de la totalité des !important
         présence de #page-loading-blocs-notifaction qui ne fait réference à rien dans le HTML / suppression
         présence des propriétés background size auto appliqué en !important a de de nombreux élements / inutile suppresion 
         redondance de certains sélecteurs .dbloc a et .dbloc a:hover / suppression de plmusieurs sélecteurs

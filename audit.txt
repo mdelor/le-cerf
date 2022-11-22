@@ -74,7 +74,7 @@ dans les assets
         l'image de présentation était au format bmp / changement vers du .jpg
         également création de noms pour ces immages à la place des chiffres
     les imports de code
-        les fichiers bootstrap et jquery sont tous obsolotes et devraient etre remplaces par des versions a jour / TODO remplacer ces imports et gérer les incompatiblités
+        les fichiers bootstrap et jquery sont tous obsolètes et devraient etre remplaces par des versions a jour / TODO remplacer ces imports et gérer les incompatiblités
     dans le fichier css
         deja il n'est pas placé dans le dossier css / déplacement et mise à jour des chemins
         supression de la totalité des !important
